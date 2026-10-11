@@ -118,10 +118,10 @@ def run_full_demo():
     # Summary
     print(">>> [STAGE 5/5] a2zsoc.com EVIDENCE VAULT SEALER & SCA DOSSIER")
     print(f"  [PROOFS SEALED] : {len(receipts)} Transactions Recorded with Merkle Root")
-    print("  [STATUS] -> COMPLIANT_CERTIFIED (RFC 3161 Merkle Root Anchored)\n")
+    print("  [STATUS] -> COMPLIANT_CERTIFIED (Local SHA-384 Merkle Seal; no RFC 3161, no network)\n")
 
     print("=" * 80)
-    print("DYNAMIC 3DS 2.3 SPRINT COMPLETE: 75% FRICTIONLESS APPROVAL ACHIEVED")
+    print("DYNAMIC 3DS 2.3 SPRINT COMPLETE: LOCAL DECISIONING + EVIDENCE SEAL")
     print("=" * 80)
 
 
